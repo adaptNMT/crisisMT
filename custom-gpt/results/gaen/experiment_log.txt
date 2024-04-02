@@ -1,0 +1,138 @@
++++ Evaluation Results +++ 
+
+++ using sacrebleu ++
++++ Evaluation Results +++ 
+
+++ using sacrebleu ++
++++ Evaluation Results +++ 
+
+++ using sacrebleu ++
++++ Evaluation Results +++ 
+
+++ using sacrebleu ++
++++ Evaluation Results +++ 
+
+++ using sacrebleu ++
+{
+ "name": "BLEU",
+ "score": 52.1,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.1",
+ "verbose_score": "75.5/57.7/45.8/37.0 (BP = 1.000 ratio = 1.049 hyp_len = 3993 ref_len = 3807)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.1"
+}
+{
+ "name": "BLEU",
+ "score": 53.2,
+ "signature": "nrefs:1|case:lc|eff:no|tok:13a|smooth:exp|version:2.4.1",
+ "verbose_score": "76.9/58.9/46.8/37.7 (BP = 1.000 ratio = 1.049 hyp_len = 3993 ref_len = 3807)",
+ "nrefs": "1",
+ "case": "lc",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.1"
+}
+{
+ "name": "TER",
+ "score": 37.0,
+ "signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.4.1",
+ "nrefs": "1",
+ "case": "lc",
+ "tok": "tercom",
+ "norm": "no",
+ "punct": "yes",
+ "asian": "no",
+ "version": "2.4.1"
+}
+{
+ "name": "chrF1",
+ "score": 72.8,
+ "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.4.1",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "yes",
+ "nc": "6",
+ "nw": "0",
+ "space": "no",
+ "version": "2.4.1"
+}
+{
+ "name": "chrF3",
+ "score": 74.7,
+ "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.4.1",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "yes",
+ "nc": "6",
+ "nw": "0",
+ "space": "no",
+ "version": "2.4.1"
+}
++++ Evaluation Results on GPT4 baseline with GAEN +++ 
+
+++ using sacrebleu ++
+{
+ "name": "BLEU",
+ "score": 53.0,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.1",
+ "verbose_score": "76.1/58.4/46.7/37.9 (BP = 1.000 ratio = 1.045 hyp_len = 3980 ref_len = 3807)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.1"
+}
+{
+ "name": "BLEU",
+ "score": 53.9,
+ "signature": "nrefs:1|case:lc|eff:no|tok:13a|smooth:exp|version:2.4.1",
+ "verbose_score": "77.6/59.6/47.5/38.5 (BP = 1.000 ratio = 1.045 hyp_len = 3980 ref_len = 3807)",
+ "nrefs": "1",
+ "case": "lc",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.1"
+}
+{
+ "name": "TER",
+ "score": 36.5,
+ "signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.4.1",
+ "nrefs": "1",
+ "case": "lc",
+ "tok": "tercom",
+ "norm": "no",
+ "punct": "yes",
+ "asian": "no",
+ "version": "2.4.1"
+}
+{
+ "name": "chrF1",
+ "score": 73.5,
+ "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.4.1",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "yes",
+ "nc": "6",
+ "nw": "0",
+ "space": "no",
+ "version": "2.4.1"
+}
+{
+ "name": "chrF3",
+ "score": 75.4,
+ "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.4.1",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "yes",
+ "nc": "6",
+ "nw": "0",
+ "space": "no",
+ "version": "2.4.1"
+}
