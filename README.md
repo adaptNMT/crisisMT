@@ -1,7 +1,7 @@
 # crisisMT
 Experimental results and notebooks for crisis MT paper
 
-Custom GPTs available at the following link (with a ChatGPT subscription):
+Custom GPTs are available at the following link (with a ChatGPT subscription):
 
 1) EN-GA Translation:
 
