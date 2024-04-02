@@ -1,0 +1,63 @@
++++ Evaluation Results for gpt-3.5-turbo-0125 ENGA Baseline +++ 
+
+++ using sacrebleu ++
+{
+ "name": "BLEU",
+ "score": 6.7,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.1",
+ "verbose_score": "30.2/10.3/3.9/1.7 (BP = 1.000 ratio = 1.164 hyp_len = 8111 ref_len = 6970)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.1"
+}
+{
+ "name": "BLEU",
+ "score": 6.7,
+ "signature": "nrefs:1|case:lc|eff:no|tok:13a|smooth:exp|version:2.4.1",
+ "verbose_score": "30.2/10.3/3.9/1.7 (BP = 1.000 ratio = 1.164 hyp_len = 8111 ref_len = 6970)",
+ "nrefs": "1",
+ "case": "lc",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.1"
+}
+{
+ "name": "TER",
+ "score": 105.5,
+ "signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.4.1",
+ "nrefs": "1",
+ "case": "lc",
+ "tok": "tercom",
+ "norm": "no",
+ "punct": "yes",
+ "asian": "no",
+ "version": "2.4.1"
+}
+{
+ "name": "chrF1",
+ "score": 37.1,
+ "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.4.1",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "yes",
+ "nc": "6",
+ "nw": "0",
+ "space": "no",
+ "version": "2.4.1"
+}
+{
+ "name": "chrF3",
+ "score": 39.2,
+ "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.4.1",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "yes",
+ "nc": "6",
+ "nw": "0",
+ "space": "no",
+ "version": "2.4.1"
+}
